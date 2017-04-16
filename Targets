@@ -18,10 +18,6 @@ host = localhost
 menu = BBS
 title = BBS
 
-++ bbs_cs_nctu_edu_tw
-host = bbs.cs.nctu.edu.tw
-title = bbs.cs.nctu.edu.tw
-
 ++ bbs_cs_nthu_edu_tw
 host = bbs.cs.nthu.edu.tw
 title = bbs.cs.nthu.edu.tw
@@ -49,10 +45,6 @@ title = ptt3.cc
 + CDN
 menu = CDN
 title = CDN
-
-++ 461022451_r_cdnsun_net
-host = 461022451.r.cdnsun.net
-title = 461022451.r.cdnsun.net (CDNSun)
 
 ++ adn_20765_psicdn_net
 host = adn.20765.psicdn.net
