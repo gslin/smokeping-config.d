@@ -1,0 +1,14 @@
+#!/bin/bash
+
+TARGET_HASH_URL=https://raw.githubusercontent.com/gslin/smokeping-config.d/master/Targets
+TARGET_HASH_OLD=$(sha256sum /etc/smokeping/config.d/Targets | awk '{print $1}')
+TARGET_HASH_NEW=$(curl -s "${TARGET_HASH_URL}" | sha256sum | awk '{print $1}')
+
+if [[ "${TARGET_HASH_OLD}" = "${TARGET_HASH_NEW}" ]]; then
+    exit
+fi
+
+curl "${TARGET_HASH_URL}" > /etc/smokeping/config.d/Targets
+
+service smokeping restart
+service smokeping-fcgi restart
