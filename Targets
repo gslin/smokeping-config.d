@@ -34,9 +34,6 @@ host = 168.95.192.2
 menu = Service
 title = Service
 
-++ base_gslin_org
-host = base.gslin.org
-
 ++ blog_gslin_org
 host = blog.gslin.org
 
@@ -45,9 +42,6 @@ host = blog.ijliao.info
 
 ++ nangang_openvpn_kkbox_com_tw
 host = nangang.openvpn.kkbox.com.tw
-
-++ news_hasname_com
-host = news.hasname.com
 
 ++ one_abpe_org
 host = one.abpe.org
