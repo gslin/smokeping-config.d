@@ -14,71 +14,6 @@ title = Local
 ++ localhost
 host = localhost
 
-+ General
-menu = General
-title = General
-
-++ 168_95_1_1
-host = 168.95.1.1
-
-++ 168_95_98_254
-host = 168.95.98.254
-
-++ 168_95_192_1
-host = 168.95.192.1
-
-++ 168_95_192_2
-host = 168.95.192.2
-
-+ Service
-menu = Service
-title = Service
-
-++ blog_gslin_org
-host = blog.gslin.org
-
-++ blog_ijliao_info
-host = blog.ijliao.info
-
-++ nangang_openvpn_kkbox_com_tw
-host = nangang.openvpn.kkbox.com.tw
-
-++ one_abpe_org
-host = one.abpe.org
-
-++ sanchong_openvpn_kkbox_com_tw
-host = sanchong.openvpn.kkbox.com.tw
-
-++ two_abpe_org
-host = two.abpe.org
-
-++ vpn_kkbox_com_tw
-host = vpn.kkbox.com.tw
-
-++ www_fetnet_net
-host = www.fetnet.net
-
-++ www_gamer_com_tw
-host = www.gamer.com.tw
-
-++ www_hinet_net
-host = www.hinet.net
-
-++ www_kkbox_com
-host = www.kkbox.com
-
-++ www_mobile01_com
-host = www.mobile01.com
-
-++ www_pchome_com_tw
-host = www.pchome.com.tw
-
-++ www_pixnet_net
-host = www.pixnet.net
-
-++ www_tfn_net_tw
-host = www.tfn.net.tw
-
 + BBS
 menu = BBS
 title = BBS
@@ -367,6 +302,22 @@ title = 8.8.4.4 (Google)
 host = 8.8.8.8
 title = 8.8.8.8 (Google)
 
++ General
+menu = General
+title = General
+
+++ 168_95_1_1
+host = 168.95.1.1
+
+++ 168_95_98_254
+host = 168.95.98.254
+
+++ 168_95_192_1
+host = 168.95.192.1
+
+++ 168_95_192_2
+host = 168.95.192.2
+
 + Hosting
 menu = Hosting
 title = Hosting
@@ -455,3 +406,52 @@ host = www.mit.edu
 
 ++ www_stanford_edu
 host = www.stanford.edu
+
++ Service
+menu = Service
+title = Service
+
+++ blog_gslin_org
+host = blog.gslin.org
+
+++ blog_ijliao_info
+host = blog.ijliao.info
+
+++ nangang_openvpn_kkbox_com_tw
+host = nangang.openvpn.kkbox.com.tw
+
+++ one_abpe_org
+host = one.abpe.org
+
+++ sanchong_openvpn_kkbox_com_tw
+host = sanchong.openvpn.kkbox.com.tw
+
+++ two_abpe_org
+host = two.abpe.org
+
+++ vpn_kkbox_com_tw
+host = vpn.kkbox.com.tw
+
+++ www_fetnet_net
+host = www.fetnet.net
+
+++ www_gamer_com_tw
+host = www.gamer.com.tw
+
+++ www_hinet_net
+host = www.hinet.net
+
+++ www_kkbox_com
+host = www.kkbox.com
+
+++ www_mobile01_com
+host = www.mobile01.com
+
+++ www_pchome_com_tw
+host = www.pchome.com.tw
+
+++ www_pixnet_net
+host = www.pixnet.net
+
+++ www_tfn_net_tw
+host = www.tfn.net.tw
