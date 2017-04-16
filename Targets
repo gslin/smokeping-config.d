@@ -226,9 +226,25 @@ title = www.us.cdnetworks.com (CDNetworks)
 menu = DNS
 title = DNS
 
+++ 61_31_1_1
+host = 61.31.1.1
+title = 61.31.1.1
+
 ++ 128_63_2_53
 host = 128.63.2.53
 title = 128.63.2.53 (h.root-servers.net)
+
+++ 139_175_1_1
+host = 139.175.1.1
+title = 139.175.1.1
+
+++ 168_95_1_1
+host = 168.95.1.1
+title = 168.95.1.1
+
+++ 168_95_192_1
+host = 168.95.192.1
+title = 168.95.192.1
 
 ++ 192_112_36_4
 host = 192.112.36.4
