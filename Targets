@@ -22,6 +22,10 @@ title = BBS
 host = bbs.cs.nthu.edu.tw
 title = bbs.cs.nthu.edu.tw
 
+++ bbs_gamer_com_tw
+host = bbs.gamer.com.tw
+title = bbs.gamer.com.tw
+
 ++ bbs_ncku_edu_tw
 host = bbs.ncku.edu.tw
 title = bbs.ncku.edu.tw
