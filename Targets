@@ -439,6 +439,10 @@ title = speedtest.singapore.linode.com (Linode Singapore)
 host = speedtest.tokyo.linode.com
 title = speedtest.tokyo.linode.com (Linode Tokyo)
 
++++ speedtest_tokyo2_linode_com
+host = speedtest.tokyo2.linode.com
+title = speedtest.tokyo2.linode.com (Linode Tokyo 2)
+
 + School
 menu = School
 title = School
