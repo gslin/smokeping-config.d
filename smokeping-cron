@@ -8,7 +8,7 @@ if [[ "${TARGET_HASH_OLD}" = "${TARGET_HASH_NEW}" ]]; then
     exit
 fi
 
-curl "${TARGET_HASH_URL}" > /etc/smokeping/config.d/Targets
+curl -s "${TARGET_HASH_URL}" > /etc/smokeping/config.d/Targets
 
 /usr/sbin/service smokeping restart
 /usr/sbin/service smokeping-fcgi restart
