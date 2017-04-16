@@ -394,6 +394,38 @@ title = speedtest.tokyo.linode.com (Linode Tokyo)
 host = speedtest.tokyo2.linode.com
 title = speedtest.tokyo2.linode.com (Linode Tokyo 2)
 
++ ISP
+menu = ISP
+title = ISP
+
+++ www_digicentre_com_tw
+host = www.digicentre.com.tw
+title = www.digicentre.com.tw
+
+++ www_hinet_net
+host = www.hinet.net
+title = www.hinet.net
+
+++ www_kbtelecom_net
+host = www.kbtelecom.net
+title = www.kbtelecom.net
+
+++ www_seed_net_tw
+host = www.seed.net.tw
+title = www.seed.net.tw
+
+++ www_taiwanmobile_com
+host = www.taiwanmobile.com
+title = www.taiwanmobile.com
+
+++ www_tfn_net_tw
+host = www.tfn.net.tw
+title = www.tfn.net.tw
+
+++ www_twgate_net
+host = www.twgate.net
+title = www.twgate.net
+
 + School
 menu = School
 title = School
