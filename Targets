@@ -1,0 +1,459 @@
+#
+*** Targets ***
+
+probe = FPing
+
+menu = Top
+title = Network Latency Grapher
+remark = Welcome to this SmokePing website.
+
++ Local
+menu = Local
+title = Local
+
+++ localhost
+host = localhost
+
++ General
+menu = General
+title = General
+
+++ 168_95_1_1
+host = 168.95.1.1
+
+++ 168_95_98_254
+host = 168.95.98.254
+
+++ 168_95_192_1
+host = 168.95.192.1
+
+++ 168_95_192_2
+host = 168.95.192.2
+
++ Service
+menu = Service
+title = Service
+
+++ base_gslin_org
+host = base.gslin.org
+
+++ blog_gslin_org
+host = blog.gslin.org
+
+++ blog_ijliao_info
+host = blog.ijliao.info
+
+++ nangang_openvpn_kkbox_com_tw
+host = nangang.openvpn.kkbox.com.tw
+
+++ news_hasname_com
+host = news.hasname.com
+
+++ one_abpe_org
+host = one.abpe.org
+
+++ sanchong_openvpn_kkbox_com_tw
+host = sanchong.openvpn.kkbox.com.tw
+
+++ two_abpe_org
+host = two.abpe.org
+
+++ vpn_kkbox_com_tw
+host = vpn.kkbox.com.tw
+
+++ www_fetnet_net
+host = www.fetnet.net
+
+++ www_gamer_com_tw
+host = www.gamer.com.tw
+
+++ www_hinet_net
+host = www.hinet.net
+
+++ www_kkbox_com
+host = www.kkbox.com
+
+++ www_mobile01_com
+host = www.mobile01.com
+
+++ www_pchome_com_tw
+host = www.pchome.com.tw
+
+++ www_pixnet_net
+host = www.pixnet.net
+
+++ www_tfn_net_tw
+host = www.tfn.net.tw
+
++ BBS
+menu = BBS
+title = BBS
+
+++ bbs_cs_nctu_edu_tw
+host = bbs.cs.nctu.edu.tw
+title = bbs.cs.nctu.edu.tw
+
+++ bbs_cs_nthu_edu_tw
+host = bbs.cs.nthu.edu.tw
+title = bbs.cs.nthu.edu.tw
+
+++ bbs_ncku_edu_tw
+host = bbs.ncku.edu.tw
+title = bbs.ncku.edu.tw
+
+++ bbs_nsysu_edu_tw
+host = bbs.nsysu.edu.tw
+title = bbs.nsysu.edu.tw
+
+++ ptt_cc
+host = ptt.cc
+title = ptt.cc
+
+++ ptt2_cc
+host = ptt2.cc
+title = ptt2.cc
+
+++ ptt3_cc
+host = ptt3.cc
+title = ptt3.cc
+
++ CDN
+menu = CDN
+title = CDN
+
+++ 461022451_r_cdnsun_net
+host = 461022451.r.cdnsun.net
+title = 461022451.r.cdnsun.net (CDNSun)
+
+++ adn_20765_psicdn_net
+host = adn.20765.psicdn.net
+title = adn.20765.psicdn.net (EdgeCast)
+
+++ ajax_googleapis_com
+host = ajax.googleapis.com
+title = ajax.googleapis.com (Google)
+
+++ ajax_microsoft_com
+host = ajax.microsoft.com
+title = ajax.microsoft.com (Microsoft)
+
+++ cachefly_cachefly_net
+host = cachefly.cachefly.net
+title = cachefly.cachefly.net (CacheFly)
+
+++ cdn_appledaily_com_tw_edgesuite_net
+host = cdn.appledaily.com.tw.edgesuite.net
+title = cdn.appledaily.com.tw.edgesuite.net (Akamai)
+
+++ cdn_17app_co_akamaized_net
+host = cdn.17app.co.akamaized.net
+title = cdn.17app.co.akamaized.net (Akamai)
+
+++ code_jquery_com
+host = code.jquery.com
+title = code.jquery.com (NetDNA)
+
+++ cs454_wpc_phicdn_net
+host = cs454.wpc.phicdn.net
+title = cs454.wpc.phicdn.net (EdgeCast, PIXNET)
+
+++ cs455_wpc_phicdn_net
+host = cs455.wpc.phicdn.net
+title = cs455.wpc.phicdn.net (EdgeCast, PIXNET)
+
+++ cs483_wpc_psicdn_net
+host = cs483.wpc.psicdn.net
+title = cs483.wpc.psicdn.net (EdgeCast)
+
+++ cs485_wpc_psicdn_net
+host = cs485.wpc.psicdn.net
+title = cs485.wpc.psicdn.net (EdgeCast, KKBOX)
+
+++ d36cz9buwru1tt_cloudfront_net
+host = d36cz9buwru1tt.cloudfront.net
+title = d36cz9buwru1tt.cloudfront.net (CloudFront)
+
+++ downloads_apple_com
+host = downloads.apple.com
+title = downloads.apple.com (Akamai)
+
+++ download_microsoft_com
+host = download.microsoft.com
+title = download.microsoft.com (Mixed)
+
+++ dsa_17app_co_edgesuite_net
+host = dsa.17app.co.edgesuite.net
+title = dsa.17app.co.edgesuite.net (Akamai)
+
+++ fbcdn-sphotos-a-a_akamaihd_net
+host = fbcdn-sphotos-a-a.akamaihd.net
+title = fbcdn-sphotos-a-a.akamaihd.net (Akamai)
+
+++ fbstatic-a_akamaihd_net
+host = fbstatic-a.akamaihd.net
+title = fbstatic-a.akamaihd.net (Akamai)
+
+++ github_global_ssl_fastly_net
+host = github.global.ssl.fastly.net
+title = github.global.ssl.fastly.net (Fastly)
+
+++ igcdn-photos-a-a_akamaihd_net
+host = igcdn-photos-a-a.akamaihd.net
+title = igcdn-photos-a-a.akamaihd.net (Akamai)
+
+++ media_limelight_com
+host = media.limelight.com
+title = media.limelight.com (Limelight)
+
+++ netdna_bootstrapcdn_com
+host = netdna.bootstrapcdn.com
+title = netdna.bootstrapcdn.com (NetDNA)
+
+++ test_gslin_org
+host = test.gslin.org
+title = test.gslin.org (CloudFront)
+
+++ test-priceclass100_gslin_org
+host = test-priceclass100.gslin.org
+title = test-priceclass100.gslin.org (CloudFront)
+
+++ test-priceclass200_gslin_org
+host = test-priceclass200.gslin.org
+title = test-priceclass200.gslin.org (CloudFront)
+
+++ tw_audio_kkbox_com_tw_edgesuite_net
+host = tw.audio.kkbox.com.tw.edgesuite.net
+title = tw.audio.kkbox.com.tw.edgesuite.net (Akamai)
+
+++ tw_is_kkbox_com_tw_edgesuite_net
+host = tw.is.kkbox.com.tw.edgesuite.net
+title = tw.is.kkbox.com.tw.edgesuite.net (Akamai)
+
+++ s-media-cache-ak_pinimg_com_edgekey_net
+host = s-media-cache-ak.pinimg.com.edgekey.net
+title = s-media-cache-ak.pinimg.com.edgekey.net (Akamai)
+
+++ use_edgefonts_net
+host = use.edgefonts.net
+title = use.edgefonts.net (EdgeCast)
+
+++ wac_20765_psicdn_net
+host = wac.20765.psicdn.net
+title = wac.20765.psicdn.net (EdgeCast)
+
+++ wildcard_kfs_io_edgekey_net
+host = wildcard.kfs.io.edgekey.net
+title = wildcard.kfs.io.edgekey.net (Akamai)
+
+++ wildcard_kkbox_com_edgekey_net
+host = wildcard.kkbox.com.edgekey.net
+title = wildcard.kkbox.com.edgekey.net (Akamai)
+
+++ wildcard_pixfs_net_edgekey_net
+host = wildcard.pixfs.net.edgekey.net
+title = wildcard.pixfs.net.edgekey.net (Akamai)
+
+++ wpc_20765_psicdn_net
+host = wpc.20765.psicdn.net
+title = wpc.20765.psicdn.net (EdgeCast)
+
+++ www_acer_com_edgesuite_net
+host = www.acer.com.edgesuite.net
+title = www.acer.com.edgesuite.net (Akamai)
+
+++ www_akamai_com
+host = www.akamai.com
+title = www.akamai.com (Akamai)
+
+++ www_asus_com_edgekey_net
+host = www.asus.com.edgekey.net
+title = www.asus.com.edgekey.net (Akamai)
+
+++ www_chinatimes_com_edgesuite_net
+host = www.chinatimes.com.edgesuite.net
+title = www.chinatimes.com.edgesuite.net (Akamai)
+
+++ www_cloudflare_com
+host = www.cloudflare.com
+title = www.cloudflare.com (CloudFlare)
+
+++ www_edgecast_com
+host = www.edgecast.com
+title = www.edgecast.com (EdgeCast)
+
+++ www_htc_com_edgekey_net
+host = www.htc.com.edgekey.net
+title = www.htc.com.edgekey.net (Akamai)
+
+++ www_limelight_com
+host = www.limelight.com
+title = www.limelight.com (Limelight)
+
+++ www_tvbs_com_tw
+host = www.tvbs.com.tw
+title = www.tvbs.com.tw (CloudFlare)
+
+++ www_udn_com_edgesuite_net
+host = www.udn.com.edgesuite.net
+title = www.udn.com.edgesuite.net (Akamai)
+
+++ www_us_cdnetworks_com
+host = www.us.cdnetworks.com
+title = www.us.cdnetworks.com (CDNetworks)
+
++ DNS
+menu = DNS
+title = DNS
+
+++ 128_63_2_53
+host = 128.63.2.53
+title = 128.63.2.53 (h.root-servers.net)
+
+++ 192_112_36_4
+host = 192.112.36.4
+title = 192.112.36.4 (g.root-servers.net)
+
+++ 192_203_230_10
+host = 192.203.230.10
+title = 192.203.230.10 (e.root-servers.net)
+
+++ 192_228_79_201
+host = 192.228.79.201
+title = 192.228.79.201 (b.root-servers.net)
+
+++ 192_33_4_12
+host = 192.33.4.12
+title = 192.33.4.12 (c.root-servers.net)
+
+++ 192_36_148_17
+host = 192.36.148.17
+title = 192.36.148.17 (i.root-servers.net)
+
+++ 192_5_5_241
+host = 192.5.5.241
+title = 192.5.5.241 (f.root-servers.net)
+
+++ 192_58_128_30
+host = 192.58.128.30
+title = 192.58.128.30 (j.root-servers.net)
+
+++ 193_0_14_129
+host = 193.0.14.129
+title = 193.0.14.129 (k.root-servers.net)
+
+++ 198_41_0_4
+host = 198.41.0.4
+title = 198.41.0.4 (a.root-servers.net)
+
+++ 199_7_83_42
+host = 199.7.83.42
+title = 199.7.83.42 (l.root-servers.net)
+
+++ 199_7_91_13
+host = 199.7.91.13
+title = 199.7.91.13 (d.root-servers.net)
+
+++ 202_12_27_33
+host = 202.12.27.33
+title = 202.12.27.33 (m.root-servers.net)
+
+++ 208_67_220_220
+host = 208.67.220.220
+title = 208.67.220.220 (OpenDNS)
+
+++ 208_67_222_222
+host = 208.67.222.222
+title = 208.67.222.222 (OpenDNS)
+
+++ 8_8_4_4
+host = 8.8.4.4
+title = 8.8.4.4 (Google)
+
+++ 8_8_8_8
+host = 8.8.8.8
+title = 8.8.8.8 (Google)
+
++ Hosting
+menu = Hosting
+title = Hosting
+
+++ DigitalOcean
+menu = DigitalOcean
+title = DigitalOcean
+
++++ speedtest-ams1_digitalocean_com
+host = speedtest-ams1.digitalocean.com
+title = speedtest-ams1.digitalocean.com (DigitalOcean Amsterdam 1)
+
++++ speedtest-ams2_digitalocean_com
+host = speedtest-ams2.digitalocean.com
+title = speedtest-ams2.digitalocean.com (DigitalOcean Amsterdam 2)
+
++++ speedtest-lon1_digitalocean_com
+host = speedtest-lon1.digitalocean.com
+title = speedtest-lon1.digitalocean.com (DigitalOcean London 1)
+
++++ speedtest-nyc1_digitalocean_com
+host = speedtest-nyc1.digitalocean.com
+title = speedtest-nyc1.digitalocean.com (DigitalOcean New York 1)
+
++++ speedtest-nyc2_digitalocean_com
+host = speedtest-nyc2.digitalocean.com
+title = speedtest-nyc2.digitalocean.com (DigitalOcean New York 2)
+
++++ speedtest-nyc3_digitalocean_com
+host = speedtest-nyc3.digitalocean.com
+title = speedtest-nyc3.digitalocean.com (DigitalOcean New York 3)
+
++++ speedtest-sfo1_digitalocean_com
+host = speedtest-sfo1.digitalocean.com
+title = speedtest-sfo1.digitalocean.com (DigitalOcean San Francisco 1)
+
++++ speedtest-sgp1_digitalocean_com
+host = speedtest-sgp1.digitalocean.com
+title = speedtest-sgp1.digitalocean.com (DigitalOcean Singapore 1)
+
+++ Linode
+menu = Linode
+title = Linode
+
++++ speedtest_atlanta_linode_com
+host = speedtest.atlanta.linode.com
+title = speedtest.atlanta.linode.com (Linode Atlanta)
+
++++ speedtest_dallas_linode_com
+host = speedtest.dallas.linode.com
+title = speedtest.dallas.linode.com (Linode Dallas)
+
++++ speedtest_fremont_linode_com
+host = speedtest.fremont.linode.com
+title = speedtest.fremont.linode.com (Linode Fremont)
+
++++ speedtest_london_linode_com
+host = speedtest.london.linode.com
+title = speedtest.london.linode.com (Linode London)
+
++++ speedtest_newark_linode_com
+host = speedtest.newark.linode.com
+title = speedtest.newark.linode.com (Linode Newark)
+
++++ speedtest_singapore_linode_com
+host = speedtest.singapore.linode.com
+title = speedtest.singapore.linode.com (Linode Singapore)
+
++++ speedtest_tokyo_linode_com
+host = speedtest.tokyo.linode.com
+title = speedtest.tokyo.linode.com (Linode Tokyo)
+
++ School
+menu = School
+title = School
+
+++ www_berkeley_edu
+host = www.berkeley.edu
+
+++ www_mit_edu
+host = www.mit.edu
+
+++ www_stanford_edu
+host = www.stanford.edu
