@@ -418,6 +418,10 @@ title = ISP
 host = www.digicentre.com.tw
 title = www.digicentre.com.tw
 
+++ www_fetnet_net
+host = www.fetnet.net
+title = www.fetnet.net
+
 ++ www_hinet_net
 host = www.hinet.net
 title = www.hinet.net
