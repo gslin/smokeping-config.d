@@ -20,31 +20,24 @@ title = BBS
 
 ++ bbs_cs_nthu_edu_tw
 host = bbs.cs.nthu.edu.tw
-title = bbs.cs.nthu.edu.tw
 
 ++ bbs_gamer_com_tw
 host = bbs.gamer.com.tw
-title = bbs.gamer.com.tw
 
 ++ bbs_ncku_edu_tw
 host = bbs.ncku.edu.tw
-title = bbs.ncku.edu.tw
 
 ++ bbs_nsysu_edu_tw
 host = bbs.nsysu.edu.tw
-title = bbs.nsysu.edu.tw
 
 ++ ptt_cc
 host = ptt.cc
-title = ptt.cc
 
 ++ ptt2_cc
 host = ptt2.cc
-title = ptt2.cc
 
 ++ ptt3_cc
 host = ptt3.cc
-title = ptt3.cc
 
 + CDN
 menu = CDN
@@ -232,27 +225,21 @@ title = Cloud
 
 ++ aws_amazon_com
 host = aws.amazon.com
-title = aws.amazon.com
 
 ++ cloud_google_com
 host = cloud.google.com
-title = cloud.google.com
 
 ++ s3_amazonaws_com
 host = s3.amazonaws.com
-title = s3.amazonaws.com
 
 ++ s3-ap-northeast-1_amazonaws_com
 host = s3-ap-northeast-1.amazonaws.com
-title = s3-ap-northeast-1.amazonaws.com
 
 ++ s3-us-west-1_amazonaws_com
 host = s3-us-west-1.amazonaws.com
-title = s3-us-west-1.amazonaws.com
 
 ++ s3-us-west-2_amazonaws_com
 host = s3-us-west-2.amazonaws.com
-title = s3-us-west-2.amazonaws.com
 
 + DNS
 menu = DNS
@@ -260,7 +247,6 @@ title = DNS
 
 ++ 61_31_1_1
 host = 61.31.1.1
-title = 61.31.1.1
 
 ++ 128_63_2_53
 host = 128.63.2.53
@@ -268,15 +254,12 @@ title = 128.63.2.53 (h.root-servers.net)
 
 ++ 139_175_1_1
 host = 139.175.1.1
-title = 139.175.1.1
 
 ++ 168_95_1_1
 host = 168.95.1.1
-title = 168.95.1.1
 
 ++ 168_95_192_1
 host = 168.95.192.1
-title = 168.95.192.1
 
 ++ 192_112_36_4
 host = 192.112.36.4
@@ -424,35 +407,27 @@ title = ISP
 
 ++ www_digicentre_com_tw
 host = www.digicentre.com.tw
-title = www.digicentre.com.tw
 
 ++ www_fetnet_net
 host = www.fetnet.net
-title = www.fetnet.net
 
 ++ www_hinet_net
 host = www.hinet.net
-title = www.hinet.net
 
 ++ www_kbtelecom_net
 host = www.kbtelecom.net
-title = www.kbtelecom.net
 
 ++ www_seed_net_tw
 host = www.seed.net.tw
-title = www.seed.net.tw
 
 ++ www_taiwanmobile_com
 host = www.taiwanmobile.com
-title = www.taiwanmobile.com
 
 ++ www_tfn_net_tw
 host = www.tfn.net.tw
-title = www.tfn.net.tw
 
 ++ www_twgate_net
 host = www.twgate.net
-title = www.twgate.net
 
 + School
 menu = School
