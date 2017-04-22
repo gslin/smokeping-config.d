@@ -230,6 +230,14 @@ title = www.us.cdnetworks.com (CDNetworks)
 menu = Cloud
 title = Cloud
 
+++ aws_amazon_com
+host = aws.amazon.com
+title = aws.amazon.com
+
+++ cloud_google_com
+host = cloud.google.com
+title = cloud.google.com
+
 ++ s3_amazonaws_com
 host = s3.amazonaws.com
 title = s3.amazonaws.com
