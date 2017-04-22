@@ -477,20 +477,11 @@ host = blog.gslin.org
 ++ blog_ijliao_info
 host = blog.ijliao.info
 
-++ nangang_openvpn_kkbox_com_tw
-host = nangang.openvpn.kkbox.com.tw
-
 ++ one_abpe_org
 host = one.abpe.org
 
-++ sanchong_openvpn_kkbox_com_tw
-host = sanchong.openvpn.kkbox.com.tw
-
 ++ two_abpe_org
 host = two.abpe.org
-
-++ vpn_kkbox_com_tw
-host = vpn.kkbox.com.tw
 
 ++ www_fetnet_net
 host = www.fetnet.net
@@ -512,6 +503,3 @@ host = www.pchome.com.tw
 
 ++ www_pixnet_net
 host = www.pixnet.net
-
-++ www_tfn_net_tw
-host = www.tfn.net.tw
