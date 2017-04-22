@@ -334,22 +334,6 @@ title = 8.8.4.4 (Google)
 host = 8.8.8.8
 title = 8.8.8.8 (Google)
 
-+ General
-menu = General
-title = General
-
-++ 168_95_1_1
-host = 168.95.1.1
-
-++ 168_95_98_254
-host = 168.95.98.254
-
-++ 168_95_192_1
-host = 168.95.192.1
-
-++ 168_95_192_2
-host = 168.95.192.2
-
 + Hosting
 menu = Hosting
 title = Hosting
