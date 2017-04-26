@@ -420,11 +420,17 @@ host = www.kbtelecom.net
 ++ www_seed_net_tw
 host = www.seed.net.tw
 
+++ www_so-net_net_tw
+host = www.so-net.net.tw
+
 ++ www_taiwanmobile_com
 host = www.taiwanmobile.com
 
 ++ www_tfn_net_tw
 host = www.tfn.net.tw
+
+++ www_tstartel_com
+host = www.tstartel.com
 
 ++ www_twgate_net
 host = www.twgate.net
