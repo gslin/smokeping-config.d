@@ -245,9 +245,6 @@ host = s3-us-west-2.amazonaws.com
 menu = DNS
 title = DNS
 
-++ 61_31_1_1
-host = 61.31.1.1
-
 ++ 128_63_2_53
 host = 128.63.2.53
 title = 128.63.2.53 (h.root-servers.net)
@@ -316,6 +313,9 @@ title = 208.67.220.220 (OpenDNS)
 ++ 208_67_222_222
 host = 208.67.222.222
 title = 208.67.222.222 (OpenDNS)
+
+++ 61_31_1_1
+host = 61.31.1.1
 
 ++ 8_8_4_4
 host = 8.8.4.4
