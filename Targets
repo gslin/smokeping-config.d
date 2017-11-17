@@ -329,6 +329,10 @@ title = 8.8.4.4 (Google)
 host = 8.8.8.8
 title = 8.8.8.8 (Google)
 
+++ 9_9_9_9
+host = 9.9.9.9
+title = 9.9.9.9 (Quad9)
+
 + Hosting
 menu = Hosting
 title = Hosting
