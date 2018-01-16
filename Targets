@@ -229,17 +229,50 @@ host = aws.amazon.com
 ++ cloud_google_com
 host = cloud.google.com
 
+++ dynamodb_ap-northeast-1_amazonaws_com
+host = dynamodb.ap-northeast-1.amazonaws.com
+
+++ dynamodb_ap-northeast-2_amazonaws_com
+host = dynamodb.ap-northeast-2.amazonaws.com
+
+++ dynamodb_ap-southeast-1_amazonaws_com
+host = dynamodb.ap-southeast-1.amazonaws.com
+
+++ dynamodb_us-east-1_amazonaws_com
+host = dynamodb.us-east-1.amazonaws.com
+
+++ dynamodb_us-east-2_amazonaws_com
+host = dynamodb.us-east-2.amazonaws.com
+
+++ dynamodb_us-west-1_amazonaws_com
+host = dynamodb.us-west-1.amazonaws.com
+
+++ dynamodb_us-west-2_amazonaws_com
+host = dynamodb.us-west-2.amazonaws.com
+
 ++ s3_amazonaws_com
 host = s3.amazonaws.com
 
 ++ s3-ap-northeast-1_amazonaws_com
 host = s3-ap-northeast-1.amazonaws.com
 
+++ s3-ap-northeast-2_amazonaws_com
+host = s3-ap-northeast-2.amazonaws.com
+
+++ s3-ap-southeast-1_amazonaws_com
+host = s3-ap-southeast-1.amazonaws.com
+
+++ s3-us-east-2_amazonaws_com
+host = s3-us-east-2.amazonaws.com
+
 ++ s3-us-west-1_amazonaws_com
 host = s3-us-west-1.amazonaws.com
 
 ++ s3-us-west-2_amazonaws_com
 host = s3-us-west-2.amazonaws.com
+
+++ s3_amazonaws_com
+host = s3.amazonaws.com
 
 + DNS
 menu = DNS
