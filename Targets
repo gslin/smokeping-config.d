@@ -207,10 +207,6 @@ title = www.htc.com.edgekey.net (Akamai)
 host = www.limelight.com
 title = www.limelight.com (Limelight)
 
-++ www_tvbs_com_tw
-host = www.tvbs.com.tw
-title = www.tvbs.com.tw (CloudFlare)
-
 ++ www_udn_com_edgesuite_net
 host = www.udn.com.edgesuite.net
 title = www.udn.com.edgesuite.net (Akamai)
