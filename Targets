@@ -91,10 +91,9 @@ title = cs485.wpc.psicdn.net (EdgeCast, KKBOX)
 host = d36cz9buwru1tt.cloudfront.net
 title = d36cz9buwru1tt.cloudfront.net (CloudFront)
 
-++ downloads_apple_com
-host = downloads.apple.com
-title = downloads.apple.com (Akamai)
-
+++ downloads_apple_com_edgekey_net
+host = downloads.apple.com.edgekey.net
+title = downloads.apple.com.edgekey.net (Akamai)
 
 ++ dsa_17app_co_edgesuite_net
 host = dsa.17app.co.edgesuite.net
