@@ -151,9 +151,9 @@ title = tw.is.kkbox.com.tw.edgesuite.net (Akamai)
 host = s-media-cache-ak.pinimg.com.edgekey.net
 title = s-media-cache-ak.pinimg.com.edgekey.net (Akamai)
 
-++ use_edgefonts_net
-host = use.edgefonts.net
-title = use.edgefonts.net (EdgeCast)
+++ use_edgefonts_net-v3_edgekey_net
+host = use.edgefonts.net-v3.edgekey.net
+title = use.edgefonts.net-v3.edgekey.net (Akamai)
 
 ++ wac_20765_psicdn_net
 host = wac.20765.psicdn.net
