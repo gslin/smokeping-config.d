@@ -505,6 +505,9 @@ host = www.stanford.edu
 menu = Service
 title = Service
 
+++ bazqux_com
+host = bazqux.com
+
 ++ blog_gslin_org
 host = blog.gslin.org
 
