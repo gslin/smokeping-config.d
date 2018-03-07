@@ -95,9 +95,6 @@ title = d36cz9buwru1tt.cloudfront.net (CloudFront)
 host = downloads.apple.com
 title = downloads.apple.com (Akamai)
 
-++ download_microsoft_com
-host = download.microsoft.com
-title = download.microsoft.com (Mixed)
 
 ++ dsa_17app_co_edgesuite_net
 host = dsa.17app.co.edgesuite.net
