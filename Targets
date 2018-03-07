@@ -123,6 +123,10 @@ title = media.limelight.com (Limelight)
 host = netdna.bootstrapcdn.com
 title = netdna.bootstrapcdn.com (NetDNA)
 
+++ prod_imgur_map_fastlylb_net
+host = prod.imgur.map.fastlylb.net
+title = prod.imgur.map.fastlylb.net (Fastly)
+
 ++ test_gslin_org
 host = test.gslin.org
 title = test.gslin.org (CloudFront)
