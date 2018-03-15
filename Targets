@@ -444,6 +444,70 @@ title = speedtest.tokyo.linode.com (Linode Tokyo)
 host = speedtest.tokyo2.linode.com
 title = speedtest.tokyo2.linode.com (Linode Tokyo 2)
 
+++ Vultr
+menu = Vultr
+title = Vultr
+
++++ ams-nl-ping_vultr_com
+host = ams-nl-ping.vultr.com
+title = ams-nl-ping.vultr.com
+
++++ fl-us-ping_vultr_com
+host = fl-us-ping.vultr.com
+title = fl-us-ping.vultr.com
+
++++ fra-de-ping_vultr_com
+host = fra-de-ping.vultr.com
+title = fra-de-ping.vultr.com
+
++++ hnd-jp-ping_vultr_com
+host = hnd-jp-ping.vultr.com
+title = hnd-jp-ping.vultr.com
+
++++ ga-us-ping_vultr_com
+host = ga-us-ping.vultr.com
+title = ga-us-ping.vultr.com
+
++++ il-us-ping_vultr_com
+host = il-us-ping.vultr.com
+title = il-us-ping.vultr.com
+
++++ lax-ca-us-ping_vultr_com
+host = lax-ca-us-ping.vultr.com
+title = lax-ca-us-ping.vultr.com
+
++++ lon-gb-ping_vultr_com
+host = lon-gb-ping.vultr.com
+title = lon-gb-ping.vultr.com
+
++++ nj-us-ping_vultr_com
+host = nj-us-ping.vultr.com
+title = nj-us-ping.vultr.com
+
++++ par-fr-ping_vultr_com
+host = par-fr-ping.vultr.com
+title = par-fr-ping.vultr.com
+
++++ sjo-ca-us-ping_vultr_com
+host = sjo-ca-us-ping.vultr.com
+title = sjo-ca-us-ping.vultr.com
+
++++ sgp-ping_vultr_com
+host = sgp-ping.vultr.com
+title = sgp-ping.vultr.com
+
++++ syd-au-ping_vultr_com
+host = syd-au-ping.vultr.com
+title = syd-au-ping.vultr.com
+
++++ tx-us-ping_vultr_com
+host = tx-us-ping.vultr.com
+title = tx-us-ping.vultr.com
+
++++ wa-us-ping_vultr_com
+host = wa-us-ping.vultr.com
+title = wa-us-ping.vultr.com
+
 + ISP
 menu = ISP
 title = ISP
