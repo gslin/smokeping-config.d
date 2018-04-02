@@ -280,6 +280,10 @@ host = s3.amazonaws.com
 menu = DNS
 title = DNS
 
+++ 1_0_0_1
+host = 1.0.0.1
+title = 1.0.0.1 (Cloudflare)
+
 ++ 1_1_1_1
 host = 1.1.1.1
 title = 1.1.1.1 (Cloudflare)
