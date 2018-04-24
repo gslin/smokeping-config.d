@@ -1,0 +1,3 @@
+#
+# Install into /etc/cron.d/
+*/5 * * * * root /usr/sbin/smokeping-cron
