@@ -1,0 +1,13 @@
+#
+# Install into /etc/systemd/system/multi-user.target.wants/
+[Unit]
+Description=Smokeping FastCGI daemon
+After=remote-fs.target
+
+[Service]
+ExecStart=/usr/bin/spawn-fcgi -s /var/run/smokeping-fcgi.sock -P /var/run/smokeping-fcgi.pid -u www-data -g www-data -- /usr/share/smokeping/www/smokeping.fcgi
+PIDFile=/var/run/smokeping-fcgi.pid
+Type=simple
+
+[Install]
+WantedBy=multi-user.target
