@@ -2,7 +2,7 @@
 
 ## Installation
 
-    make install
+    $ sudo make install
 
 ## Sites
 
