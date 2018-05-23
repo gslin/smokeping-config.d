@@ -155,6 +155,10 @@ title = s-media-cache-ak.pinimg.com.edgekey.net (Akamai)
 host = use.edgefonts.net-v3.edgekey.net
 title = use.edgefonts.net-v3.edgekey.net (Akamai)
 
+++ unpkg_com
+host = unpkg.com
+title = unpkg.com (Cloudflare)
+
 ++ wac_20765_psicdn_net
 host = wac.20765.psicdn.net
 title = wac.20765.psicdn.net (EdgeCast)
