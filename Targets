@@ -195,10 +195,6 @@ title = www.edgecast.com (EdgeCast)
 host = www.htc.com.edgekey.net
 title = www.htc.com.edgekey.net (Akamai)
 
-++ www_limelight_com
-host = www.limelight.com
-title = www.limelight.com (Limelight)
-
 ++ www_udn_com_edgesuite_net
 host = www.udn.com.edgesuite.net
 title = www.udn.com.edgesuite.net (Akamai)
