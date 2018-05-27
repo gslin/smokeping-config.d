@@ -99,10 +99,6 @@ title = dsa.17app.co.edgesuite.net (Akamai)
 host = fbcdn-sphotos-a-a.akamaihd.net
 title = fbcdn-sphotos-a-a.akamaihd.net (Akamai)
 
-++ fbstatic-a_akamaihd_net
-host = fbstatic-a.akamaihd.net
-title = fbstatic-a.akamaihd.net (Akamai)
-
 ++ github_global_ssl_fastly_net
 host = github.global.ssl.fastly.net
 title = github.global.ssl.fastly.net (Fastly)
