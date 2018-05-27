@@ -131,6 +131,10 @@ title = test-priceclass100.gslin.org (CloudFront)
 host = test-priceclass200.gslin.org
 title = test-priceclass200.gslin.org (CloudFront)
 
+++ twaddksdssl_edgekey_net
+host = twaddksdssl.edgekey.net
+title = twaddksdssl.edgekey.net (Akamai)
+
 ++ tw_audio_kkbox_com_tw_edgesuite_net
 host = tw.audio.kkbox.com.tw.edgesuite.net
 title = tw.audio.kkbox.com.tw.edgesuite.net (Akamai)
