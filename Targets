@@ -280,6 +280,10 @@ title = 1.0.0.1 (Cloudflare)
 host = 1.1.1.1
 title = 1.1.1.1 (Cloudflare)
 
+++ 101_101_101_101
+host = 101.101.101.101
+title = 101.101.101.101 (TWNIC)
+
 ++ 128_63_2_53
 host = 128.63.2.53
 title = 128.63.2.53 (h.root-servers.net)
