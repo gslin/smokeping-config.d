@@ -641,6 +641,9 @@ host = github.com
 ++ old_gslin_org
 host = old.gslin.org
 
+++ tw_archive_ubuntu_com
+host = tw.archive.ubuntu.com
+
 ++ twitter_com
 host = twitter.com
 
