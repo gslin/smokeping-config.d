@@ -7,3 +7,4 @@
 ## Sites
 
 * https://home.gslin.org/smokeping/
+* https://rpi.gslin.com/smokeping/
