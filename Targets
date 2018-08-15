@@ -71,6 +71,10 @@ title = cdn.17app.co.akamaized.net (Akamai)
 host = code.jquery.netdna-cdn.com
 title = code.jquery.netdna-cdn.com (NetDNA)
 
+++ cs196_wac_edgecastcdn_net
+host = cs196.wac.edgecastcdn.net
+title = cs196.wac.edgecastcdn.net (EdgeCast, Twitter)
+
 ++ cs454_wpc_phicdn_net
 host = cs454.wpc.phicdn.net
 title = cs454.wpc.phicdn.net (EdgeCast, PIXNET)
