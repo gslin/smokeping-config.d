@@ -598,6 +598,9 @@ title = wa-us-ping.vultr.com
 menu = ISP
 title = ISP
 
+++ dns_apol_com_tw
+host = dns.apol.com.tw
+
 ++ www_apol_com_tw
 host = www.apol.com.tw
 
