@@ -598,6 +598,10 @@ title = wa-us-ping.vultr.com
 menu = ISP
 title = ISP
 
+++ 219_91_1_254
+host = 219.91.1.254
+title = 219.91.1.254 (APOL, Taipeinet)
+
 ++ dns_apol_com_tw
 host = dns.apol.com.tw
 
