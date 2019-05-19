@@ -75,14 +75,6 @@ title = code.jquery.netdna-cdn.com (NetDNA)
 host = cs196.wac.edgecastcdn.net
 title = cs196.wac.edgecastcdn.net (EdgeCast, Twitter)
 
-++ cs454_wpc_phicdn_net
-host = cs454.wpc.phicdn.net
-title = cs454.wpc.phicdn.net (EdgeCast, PIXNET)
-
-++ cs455_wpc_phicdn_net
-host = cs455.wpc.phicdn.net
-title = cs455.wpc.phicdn.net (EdgeCast, PIXNET)
-
 ++ cs485_wpc_psicdn_net
 host = cs485.wpc.psicdn.net
 title = cs485.wpc.psicdn.net (EdgeCast, KKBOX)
@@ -99,17 +91,9 @@ title = downloads.apple.com.edgekey.net (Akamai)
 host = dsa.17app.co.edgesuite.net
 title = dsa.17app.co.edgesuite.net (Akamai)
 
-++ fbcdn-sphotos-a-a_akamaihd_net
-host = fbcdn-sphotos-a-a.akamaihd.net
-title = fbcdn-sphotos-a-a.akamaihd.net (Akamai)
-
 ++ github_global_ssl_fastly_net
 host = github.global.ssl.fastly.net
 title = github.global.ssl.fastly.net (Fastly)
-
-++ igcdn-photos-a-a_akamaihd_net
-host = igcdn-photos-a-a.akamaihd.net
-title = igcdn-photos-a-a.akamaihd.net (Akamai)
 
 ++ media_limelight_com
 host = media.limelight.com
