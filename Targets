@@ -254,7 +254,7 @@ host = dynamodb.us-west-1.amazonaws.com
 host = dynamodb.us-west-2.amazonaws.com
 
 ++ s3-af-south-1_amazonaws_com
-host = s3-af-south-1.amazonaws.com
+host = s3.af-south-1.amazonaws.com
 
 ++ s3-ap-east-1_amazonaws_com
 host = s3-ap-east-1.amazonaws.com
