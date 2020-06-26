@@ -684,6 +684,9 @@ title = Service
 ++ abs_twimg_com
 host = abs.twimg.com
 
+++ api_slack_com
+host = api.slack.com
+
 ++ app_slack_com
 host = app.slack.com
 
