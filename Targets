@@ -681,6 +681,9 @@ host = www.stanford.edu
 menu = Service
 title = Service
 
+++ abs_twimg_com
+host = abs.twimg.com
+
 ++ app_slack_com
 host = app.slack.com
 
