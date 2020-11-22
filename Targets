@@ -707,6 +707,9 @@ host = blog.gslin.org
 ++ blog_ijliao_info
 host = blog.ijliao.info
 
+++ cdn_lbryplayer_xyz
+host = cdn.lbryplayer.xyz
+
 ++ github_com
 host = github.com
 
