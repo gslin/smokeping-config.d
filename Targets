@@ -738,6 +738,9 @@ host = stackoverflow.com
 ++ tw_archive_ubuntu_com
 host = tw.archive.ubuntu.com
 
+++ tw_yahoo_com
+host = tw.yahoo.com
+
 ++ twitter_com
 host = twitter.com
 
