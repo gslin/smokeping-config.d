@@ -711,6 +711,9 @@ host = app.slack.com
 ++ bazqux_com
 host = bazqux.com
 
+++ blog_csdn_net
+host = blog.csdn.net
+
 ++ blog_gslin_org
 host = blog.gslin.org
 
