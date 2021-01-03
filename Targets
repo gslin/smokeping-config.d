@@ -699,6 +699,10 @@ host = www.stanford.edu
 menu = Service
 title = Service
 
+++ 192_88_99_1
+host = 192.88.99.1
+title = 192.88.99.1 (6to4)
+
 ++ abs_twimg_com
 host = abs.twimg.com
 
