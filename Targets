@@ -727,6 +727,9 @@ host = blog.ijliao.info
 ++ cdn_lbryplayer_xyz
 host = cdn.lbryplayer.xyz
 
+++ f-droid_org
+host = f-droid.org
+
 ++ github_com
 host = github.com
 
