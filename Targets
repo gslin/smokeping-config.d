@@ -730,6 +730,9 @@ host = cdn.lbryplayer.xyz
 ++ github_com
 host = github.com
 
+++ gitlab_com
+host = gitlab.com
+
 ++ i_imgur_com
 host = i.imgur.com
 
