@@ -15,7 +15,7 @@ fi
 
 /usr/bin/logger -p local0.notice -t smokeping-cron "Updating \"Targets\"."
 
-echo -n "${TARGET_CONTENT}" > /etc/smokeping/config.d/Targets
+echo "${TARGET_CONTENT}" > /etc/smokeping/config.d/Targets
 
 /usr/sbin/service smokeping restart
 /usr/sbin/service smokeping-fcgi restart
