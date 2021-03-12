@@ -450,10 +450,6 @@ title = Hosting
 menu = DigitalOcean
 title = DigitalOcean
 
-+++ speedtest-ams1_digitalocean_com
-host = speedtest-ams1.digitalocean.com
-title = speedtest-ams1.digitalocean.com (DigitalOcean Amsterdam 1)
-
 +++ speedtest-ams2_digitalocean_com
 host = speedtest-ams2.digitalocean.com
 title = speedtest-ams2.digitalocean.com (DigitalOcean Amsterdam 2)
@@ -509,10 +505,6 @@ title = speedtest.newark.linode.com (Linode Newark)
 +++ speedtest_singapore_linode_com
 host = speedtest.singapore.linode.com
 title = speedtest.singapore.linode.com (Linode Singapore)
-
-+++ speedtest_tokyo_linode_com
-host = speedtest.tokyo.linode.com
-title = speedtest.tokyo.linode.com (Linode Tokyo)
 
 +++ speedtest_tokyo2_linode_com
 host = speedtest.tokyo2.linode.com
