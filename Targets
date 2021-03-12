@@ -155,17 +155,9 @@ title = wildcard.pixfs.net.edgekey.net (Akamai)
 host = wpc.20765.psicdn.net
 title = wpc.20765.psicdn.net (EdgeCast)
 
-++ www_acer_com_edgesuite_net
-host = www.acer.com.edgesuite.net
-title = www.acer.com.edgesuite.net (Akamai)
-
 ++ www_akamai_com
 host = www.akamai.com
 title = www.akamai.com (Akamai)
-
-++ www_asus_com_edgekey_net
-host = www.asus.com.edgekey.net
-title = www.asus.com.edgekey.net (Akamai)
 
 ++ www_chinatimes_com_edgesuite_net
 host = www.chinatimes.com.edgesuite.net
@@ -290,9 +282,6 @@ host = s3-eu-west-3.amazonaws.com
 
 ++ s3-sa-east-1_amazonaws_com
 host = s3-sa-east-1.amazonaws.com
-
-++ s3-us-east-1_amazonaws_com
-host = s3-us-east-1.amazonaws.com
 
 ++ s3-us-east-2_amazonaws_com
 host = s3-us-east-2.amazonaws.com
