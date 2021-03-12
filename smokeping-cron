@@ -1,6 +1,6 @@
 #!/bin/bash
 
-TARGET_URL=https://raw.githubusercontent.com/gslin/smokeping-config.d/master/Targets
+TARGET_URL="https://raw.githubusercontent.com/gslin/smokeping-config.d/master/Targets?v=$(date +%s)"
 TARGET_CONTENT=$(curl -s "${TARGET_URL}")
 
 TARGET_OLDHASH=$(sha256sum /etc/smokeping/config.d/Targets | awk '{print $1}')
