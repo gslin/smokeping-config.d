@@ -1,14 +1,21 @@
 #!/bin/bash
 
-TARGET_HASH_URL=https://raw.githubusercontent.com/gslin/smokeping-config.d/master/Targets
-TARGET_HASH_OLD=$(sha256sum /etc/smokeping/config.d/Targets | awk '{print $1}')
-TARGET_HASH_NEW=$(curl -s "${TARGET_HASH_URL}" | sha256sum | awk '{print $1}')
+TARGET_URL=https://raw.githubusercontent.com/gslin/smokeping-config.d/master/Targets
+TARGET_CONTENT=$(curl -s "${TARGET_URL}")
 
-if [[ "${TARGET_HASH_OLD}" = "${TARGET_HASH_NEW}" ]]; then
+TARGET_OLDHASH=$(sha256sum /etc/smokeping/config.d/Targets | awk '{print $1}')
+TARGET_NEWHASH=$(echo "${TARGET_CONTENT}" | sha256sum | awk '{print $1}')
+
+/usr/bin/logger -p local0.info "Existing \"Targets\" hash: ${TARGET_OLDHASH}"
+/usr/bin/logger -p local0.info "Network \"Targets\" hash: ${TARGET_NEWHASH}"
+
+if [[ "${TARGET_OLDHASH}" = "${TARGET_NEWHASH}" ]]; then
     exit
 fi
 
-curl -s "${TARGET_HASH_URL}" > /etc/smokeping/config.d/Targets
+/usr/bin/logger -p local0.notice "Updating \"Targets\""
+
+echo "${TARGET_CONTENT}" > /etc/smokeping/config.d/Targets
 
 /usr/sbin/service smokeping restart
 /usr/sbin/service smokeping-fcgi restart
