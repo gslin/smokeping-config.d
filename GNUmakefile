@@ -1,7 +1,7 @@
 #
 INSTALL?=	/usr/bin/install
 LN?=		/bin/ln
-SYSTEMCTL?=	/usr/bin/systemctl
+SYSTEMCTL?=	$(shell which systemctl)
 
 #
 all::
