@@ -6,14 +6,14 @@ TARGET_CONTENT=$(curl -s "${TARGET_URL}")
 TARGET_OLDHASH=$(sha256sum /etc/smokeping/config.d/Targets | awk '{print $1}')
 TARGET_NEWHASH=$(echo "${TARGET_CONTENT}" | sha256sum | awk '{print $1}')
 
-/usr/bin/logger -p local0.info "Existing \"Targets\" hash: ${TARGET_OLDHASH}"
-/usr/bin/logger -p local0.info "Network \"Targets\" hash: ${TARGET_NEWHASH}"
+/usr/bin/logger -p local0.info -t smokeping-cron "Existing \"Targets\" hash: ${TARGET_OLDHASH}."
+/usr/bin/logger -p local0.info -t smokeping-cron "Network \"Targets\" hash: ${TARGET_NEWHASH}."
 
 if [[ "${TARGET_OLDHASH}" = "${TARGET_NEWHASH}" ]]; then
     exit
 fi
 
-/usr/bin/logger -p local0.notice "Updating \"Targets\""
+/usr/bin/logger -p local0.notice -t smokeping-cron "Updating \"Targets\"."
 
 echo "${TARGET_CONTENT}" > /etc/smokeping/config.d/Targets
 
