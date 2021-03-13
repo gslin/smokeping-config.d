@@ -72,10 +72,6 @@ title = code.jquery.netdna-cdn.com (NetDNA)
 host = cs196.wac.edgecastcdn.net
 title = cs196.wac.edgecastcdn.net (EdgeCast, Twitter)
 
-++ cs485_wpc_psicdn_net
-host = cs485.wpc.psicdn.net
-title = cs485.wpc.psicdn.net (EdgeCast, KKBOX)
-
 ++ d36cz9buwru1tt_cloudfront_net
 host = d36cz9buwru1tt.cloudfront.net
 title = d36cz9buwru1tt.cloudfront.net (CloudFront)
