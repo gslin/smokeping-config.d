@@ -740,6 +740,9 @@ host = twitter.com
 ++ unpkg_com
 host = unpkg.com
 
+++ wordpress_com
+host = wordpress.com
+
 ++ www_facebook_com
 host = www.facebook.com
 
