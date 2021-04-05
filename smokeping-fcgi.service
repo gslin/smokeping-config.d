@@ -1,5 +1,5 @@
 #
-# Install into /etc/systemd/system/multi-user.target.wants/
+# Install into /lib/systemd/system
 [Unit]
 Description=Smokeping FastCGI daemon
 After=remote-fs.target
