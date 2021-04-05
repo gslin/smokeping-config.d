@@ -18,9 +18,6 @@ host = localhost
 menu = BBS
 title = BBS
 
-++ bbs_cs_nthu_edu_tw
-host = bbs.cs.nthu.edu.tw
-
 ++ bbs_gamer_com_tw
 host = bbs.gamer.com.tw
 
