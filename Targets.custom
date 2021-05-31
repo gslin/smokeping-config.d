@@ -305,7 +305,7 @@ host = 168.95.1.1
 
 ++ 168_95_1_1_DNS
 probe = DNS
-host = 168.95.1.1
+host = 168.95.1.1 (DNS)
 lookup = dictionary.cambridge.org
 server = 168.95.1.1
 
@@ -314,7 +314,7 @@ host = 168.95.192.1
 
 ++ 168_95_192_1_DNS
 probe = DNS
-host = 168.95.192.1
+host = 168.95.192.1 (DNS)
 lookup = dictionary.cambridge.org
 server = 168.95.192.1
 
