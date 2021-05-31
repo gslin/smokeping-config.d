@@ -2,22 +2,39 @@
 
 NOW=$(date +%s)
 
+# Probes
+PROBES_URL="https://raw.githubusercontent.com/gslin/smokeping-config.d/master/Probes.custom?v=${NOW}"
+PROBES_CONTENT=$(curl -s "${PROBES_URL}")
+PROBES_OLDHASH=$(sha256sum /etc/smokeping/config.d/Probes.custom | awk '{print $1}')
+PROBES_NEWHASH=$(echo "${PROBES_CONTENT}" | sha256sum | awk '{print $1}')
+
+/usr/bin/logger -p local0.info -t smokeping-cron "Existing \"Probes.custom\" hash: ${PROBES_OLDHASH}."
+/usr/bin/logger -p local0.info -t smokeping-cron "Network \"Probes.custom\" hash: ${PROBES_NEWHASH}."
+
+# Targets
 TARGETS_URL="https://raw.githubusercontent.com/gslin/smokeping-config.d/master/Targets.custom?v=${NOW}"
 TARGETS_CONTENT=$(curl -s "${TARGETS_URL}")
-
 TARGETS_OLDHASH=$(sha256sum /etc/smokeping/config.d/Targets.custom | awk '{print $1}')
 TARGETS_NEWHASH=$(echo "${TARGETS_CONTENT}" | sha256sum | awk '{print $1}')
 
 /usr/bin/logger -p local0.info -t smokeping-cron "Existing \"Targets.custom\" hash: ${TARGETS_OLDHASH}."
 /usr/bin/logger -p local0.info -t smokeping-cron "Network \"Targets.custom\" hash: ${TARGETS_NEWHASH}."
 
-if [[ "${TARGETS_OLDHASH}" = "${TARGETS_NEWHASH}" ]]; then
-    exit
+RESTART=0
+
+if [[ "${PROBES_OLDHASH}" != "${PROBES_NEWHASH}" ]]; then
+    /usr/bin/logger -p local0.notice -t smokeping-cron "Updating \"Probes.cutsom\"."
+    echo "${PROBES_CONTENT}" > /etc/smokeping/config.d/Probes.custom
+    RESTART=1
 fi
 
-/usr/bin/logger -p local0.notice -t smokeping-cron "Updating \"Targets.cutsom\"."
+if [[ "${TARGETS_OLDHASH}" != "${TARGETS_NEWHASH}" ]]; then
+    /usr/bin/logger -p local0.notice -t smokeping-cron "Updating \"Targets.cutsom\"."
+    echo "${TARGETS_CONTENT}" > /etc/smokeping/config.d/Targets.custom
+    RESTART=1
+fi
 
-echo "${TARGETS_CONTENT}" > /etc/smokeping/config.d/Targets.custom
-
-/usr/sbin/service smokeping restart
-/usr/sbin/service smokeping-fcgi restart
+if [[ "x${RESTART}" = "x1" ]]; then
+    /usr/sbin/service smokeping restart
+    /usr/sbin/service smokeping-fcgi restart
+fi
