@@ -1,12 +1,4 @@
 #
-*** Targets ***
-
-probe = FPing
-
-menu = Top
-title = Network Latency Grapher
-remark = Welcome to this SmokePing website.
-
 + Local
 menu = Local
 title = Local
