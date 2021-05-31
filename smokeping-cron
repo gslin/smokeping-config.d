@@ -2,22 +2,22 @@
 
 NOW=$(date +%s)
 
-TARGET_URL="https://raw.githubusercontent.com/gslin/smokeping-config.d/master/Targets.custom?v=${NOW}"
-TARGET_CONTENT=$(curl -s "${TARGET_URL}")
+TARGETS_URL="https://raw.githubusercontent.com/gslin/smokeping-config.d/master/Targets.custom?v=${NOW}"
+TARGETS_CONTENT=$(curl -s "${TARGETS_URL}")
 
-TARGET_OLDHASH=$(sha256sum /etc/smokeping/config.d/Targets.custom | awk '{print $1}')
-TARGET_NEWHASH=$(echo "${TARGET_CONTENT}" | sha256sum | awk '{print $1}')
+TARGETS_OLDHASH=$(sha256sum /etc/smokeping/config.d/Targets.custom | awk '{print $1}')
+TARGETS_NEWHASH=$(echo "${TARGETS_CONTENT}" | sha256sum | awk '{print $1}')
 
-/usr/bin/logger -p local0.info -t smokeping-cron "Existing \"Targets.custom\" hash: ${TARGET_OLDHASH}."
-/usr/bin/logger -p local0.info -t smokeping-cron "Network \"Targets.custom\" hash: ${TARGET_NEWHASH}."
+/usr/bin/logger -p local0.info -t smokeping-cron "Existing \"Targets.custom\" hash: ${TARGETS_OLDHASH}."
+/usr/bin/logger -p local0.info -t smokeping-cron "Network \"Targets.custom\" hash: ${TARGETS_NEWHASH}."
 
-if [[ "${TARGET_OLDHASH}" = "${TARGET_NEWHASH}" ]]; then
+if [[ "${TARGETS_OLDHASH}" = "${TARGETS_NEWHASH}" ]]; then
     exit
 fi
 
 /usr/bin/logger -p local0.notice -t smokeping-cron "Updating \"Targets.cutsom\"."
 
-echo "${TARGET_CONTENT}" > /etc/smokeping/config.d/Targets.custom
+echo "${TARGETS_CONTENT}" > /etc/smokeping/config.d/Targets.custom
 
 /usr/sbin/service smokeping restart
 /usr/sbin/service smokeping-fcgi restart
