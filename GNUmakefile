@@ -1,8 +1,8 @@
 #
-GREP?=		/usr/bin/grep
+GREP?=		$(shell which grep)
 INSTALL?=	/usr/bin/install
 LN?=		/bin/ln
-SED?=		/usr/bin/sed
+SED?=		$(shell which sed)
 SYSTEMCTL?=	$(shell which systemctl)
 
 #
