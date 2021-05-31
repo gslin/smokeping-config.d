@@ -303,8 +303,20 @@ host = 139.175.1.1
 ++ 168_95_1_1
 host = 168.95.1.1
 
+++ 168_95_1_1_DNS
+host = 168.95.1.1
+lookup = dictionary.cambridge.org
+pings = 5
+server = 168.95.1.1
+
 ++ 168_95_192_1
 host = 168.95.192.1
+
+++ 168_95_192_1_DNS
+host = 168.95.192.1
+lookup = dictionary.cambridge.org
+pings = 5
+server = 168.95.192.1
 
 ++ 192_112_36_4
 host = 192.112.36.4
