@@ -15,7 +15,7 @@ PROBES_NEWHASH=$(echo "${PROBES_CONTENT}" | sha256sum | awk '{print $1}')
 
 # Targets
 TARGETS_URL="https://raw.githubusercontent.com/gslin/smokeping-config.d/master/Targets.custom?v=${NOW}"
-TARGETS_CONTENT=$(curl -s --curl "${TARGETS_URL}")
+TARGETS_CONTENT=$(curl -s --fail "${TARGETS_URL}")
 TARGETS_OLDHASH=$(sha256sum /etc/smokeping/config.d/Targets.custom | awk '{print $1}')
 TARGETS_NEWHASH=$(echo "${TARGETS_CONTENT}" | sha256sum | awk '{print $1}')
 
