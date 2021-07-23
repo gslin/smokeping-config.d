@@ -725,6 +725,9 @@ host = pbs.twimg.com
 ++ old_gslin_org
 host = old.gslin.org
 
+++ ppa_launchpad_net
+host = ppa.launchpad.net
+
 ++ slack_com
 host = slack.com
 
