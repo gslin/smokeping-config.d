@@ -153,6 +153,10 @@ title = www.cloudflare.com (CloudFlare)
 host = www.edgecast.com
 title = www.edgecast.com (EdgeCast)
 
+++ www_fastly_com
+host = www.fastly.com
+title = www.fastly.com (Fastly)
+
 ++ www_htc_com_edgekey_net
 host = www.htc.com.edgekey.net
 title = www.htc.com.edgekey.net (Akamai)
