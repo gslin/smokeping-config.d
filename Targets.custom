@@ -738,6 +738,9 @@ host = slack.com
 ++ stackoverflow_com
 host = stackoverflow.com
 
+++ time_cloudflare_com
+host = time.cloudflare.com
+
 ++ tw_archive_ubuntu_com
 host = tw.archive.ubuntu.com
 
