@@ -787,6 +787,9 @@ host = twitter.com
 ++ unpkg_com
 host = unpkg.com
 
+++ web_archive_org
+host = web.archive.org
+
 ++ wordpress_com
 host = wordpress.com
 
