@@ -757,6 +757,9 @@ host = i.imgur.com
 ++ imgur_com
 host = imgur.com
 
+++ ipfs_io
+host = ipfs.io
+
 ++ pbs_twimg_com
 host = pbs.twimg.com
 
