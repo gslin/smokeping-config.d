@@ -89,6 +89,10 @@ title = media.limelight.com (Limelight)
 host = netdna.bootstrapcdn.com
 title = netdna.bootstrapcdn.com (NetDNA)
 
+++ test_aaplimg_com
+host = test.aaplimg.com
+title = test.aaplimg.com (Apple)
+
 ++ test_gslin_org
 host = test.gslin.org
 title = test.gslin.org (CloudFront)
