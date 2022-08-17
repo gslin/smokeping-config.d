@@ -423,9 +423,23 @@ title = 202.12.27.33 (m.root-servers.net)
 host = 208.67.220.220
 title = 208.67.220.220 (OpenDNS)
 
+++ 208_67_220_220_DNS
+probe = DNS
+host = 208.67.220.220
+lookup = www.akamai.com
+server = 208.67.220.220
+title = 208.67.220.220 (OpenDNS, DNS)
+
 ++ 208_67_222_222
 host = 208.67.222.222
 title = 208.67.222.222 (OpenDNS)
+
+++ 208_67_222_222_DNS
+probe = DNS
+host = 208.67.222.222
+lookup = www.akamai.com
+server = 208.67.222.222
+title = 208.67.222.222 (OpenDNS, DNS)
 
 ++ 210_200_211_225
 host = 210.200.211.225
