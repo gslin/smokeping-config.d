@@ -508,25 +508,67 @@ title = 8.8.8.8 (Google, DNS)
 host = 94.140.14.14
 title = 94.140.14.14 (AdGuard, Default servers)
 
+++ 94_140_14_14_DNS
+probe = DNS
+host = 94.140.14.14
+lookup = www.akamai.com
+server = 94.140.14.14
+title = 94.140.14.14 (AdGuard, Default servers, DNS)
+
 ++ 94_140_14_15
 host = 94.140.14.15
 title = 94.140.14.15 (AdGuard, Family protection servers)
+
+++ 94_140_14_15_DNS
+probe = DNS
+host = 94.140.14.15
+lookup = www.akamai.com
+server = 94.140.14.15
+title = 94.140.14.15 (AdGuard, Family protection servers, DNS)
 
 ++ 94_140_14_140
 host = 94.140.14.140
 title = 94.140.14.140 (AdGuard, Non-filtering servers)
 
+++ 94_140_14_140_DNS
+probe = DNS
+host = 94.140.14.140
+lookup = www.akamai.com
+server = 94.140.14.140
+title = 94.140.14.140 (AdGuard, Non-filtering servers, DNS)
+
 ++ 94_140_14_141
 host = 94.140.14.141
 title = 94.140.14.141 (AdGuard, Non-filtering servers)
+
+++ 94_140_14_141_DNS
+probe = DNS
+host = 94.140.14.141
+lookup = www.akamai.com
+server = 94.140.14.141
+title = 94.140.14.141 (AdGuard, Non-filtering servers, DNS)
 
 ++ 94_140_15_15
 host = 94.140.15.15
 title = 94.140.15.15 (AdGuard, Default servers)
 
+++ 94_140_15_15_DNS
+probe = DNS
+host = 94.140.15.15
+lookup = www.akamai.com
+server = 94.140.15.15
+title = 94.140.15.15 (AdGuard, Default servers, DNS)
+
 ++ 94_140_15_16
 host = 94.140.15.16
 title = 94.140.15.16 (AdGuard, Family protection servers)
+
+++ 94_140_15_16_DNS
+probe = DNS
+host = 94.140.15.16
+lookup = www.akamai.com
+server = 94.140.15.16
+title = 94.140.15.16 (AdGuard, Family protection servers, DNS)
 
 ++ 9_9_9_9
 host = 9.9.9.9
