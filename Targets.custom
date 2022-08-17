@@ -497,6 +497,13 @@ title = 94.140.15.16 (AdGuard, Family protection servers)
 host = 9.9.9.9
 title = 9.9.9.9 (Quad9)
 
+++ 9_9_9_9_DNS
+probe = DNS
+host = 9.9.9.9
+lookup = www.akamai.com
+server = 9.9.9.9
+title = 9.9.9.9 (Quad9, DNS)
+
 + Hosting
 menu = Hosting
 title = Hosting
