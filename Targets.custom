@@ -324,7 +324,7 @@ host = 168.95.1.1
 ++ 168_95_1_1_DNS
 probe = DNS
 host = 168.95.1.1
-lookup = dictionary.cambridge.org
+lookup = www.akamai.com
 server = 168.95.1.1
 title = 168.95.1.1 (DNS)
 
@@ -334,7 +334,7 @@ host = 168.95.192.1
 ++ 168_95_192_1_DNS
 probe = DNS
 host = 168.95.192.1
-lookup = dictionary.cambridge.org
+lookup = www.akamai.com
 server = 168.95.192.1
 title = 168.95.192.1 (DNS)
 
