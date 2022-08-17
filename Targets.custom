@@ -325,6 +325,13 @@ title = 1.1.1.1 (Cloudflare, DNS)
 host = 101.101.101.101
 title = 101.101.101.101 (TWNIC)
 
+++ 101_101_101_101_DNS
+probe = DNS
+host = 101.101.101.101
+lookup = www.akamai.com
+server = 101.101.101.101
+title = 101.101.101.101 (TWNIC, DNS)
+
 ++ 128_63_2_53
 host = 128.63.2.53
 title = 128.63.2.53 (h.root-servers.net)
