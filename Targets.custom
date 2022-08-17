@@ -303,9 +303,23 @@ title = DNS
 host = 1.0.0.1
 title = 1.0.0.1 (Cloudflare)
 
+++ 1_0_0_1_DNS
+probe = DNS
+host = 1.0.0.1
+lookup = www.akamai.com
+server = 1.0.0.1
+title = 1.0.0.1 (Cloudflare, DNS)
+
 ++ 1_1_1_1
 host = 1.1.1.1
 title = 1.1.1.1 (Cloudflare)
+
+++ 1_1_1_1_DNS
+probe = DNS
+host = 1.1.1.1
+lookup = www.akamai.com
+server = 1.1.1.1
+title = 1.1.1.1 (Cloudflare, DNS)
 
 ++ 101_101_101_101
 host = 101.101.101.101
