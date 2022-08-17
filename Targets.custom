@@ -451,9 +451,23 @@ host = 8.26.56.26
 host = 8.8.4.4
 title = 8.8.4.4 (Google)
 
+++ 8_8_4_4_DNS
+probe = DNS
+host = 8.8.4.4
+lookup = www.akamai.com
+server = 8.8.4.4
+title = 8.8.4.4 (DNS)
+
 ++ 8_8_8_8
 host = 8.8.8.8
 title = 8.8.8.8 (Google)
+
+++ 8_8_8_8_DNS
+probe = DNS
+host = 8.8.8.8
+lookup = www.akamai.com
+server = 8.8.8.8
+title = 8.8.8.8 (DNS)
 
 ++ 94_140_14_14
 host = 94.140.14.14
