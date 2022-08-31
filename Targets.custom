@@ -226,6 +226,9 @@ host = dynamodb.eu-west-2.amazonaws.com
 ++ dynamodb_eu-west-3_amazonaws_com
 host = dynamodb.eu-west-3.amazonaws.com
 
+++ dynamodb_me-central-1_amazonaws_com
+host = dynamodb.me-central-1.amazonaws.com
+
 ++ dynamodb_sa-east-1_amazonaws_com
 host = dynamodb.sa-east-1.amazonaws.com
 
@@ -279,6 +282,9 @@ host = s3-eu-west-2.amazonaws.com
 
 ++ s3-eu-west-3_amazonaws_com
 host = s3-eu-west-3.amazonaws.com
+
+++ s3-me-central-1_amazonaws_com
+host = s3-me-central-1.amazonaws.com
 
 ++ s3-sa-east-1_amazonaws_com
 host = s3-sa-east-1.amazonaws.com
