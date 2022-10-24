@@ -2,7 +2,7 @@
 +DNS
 
 binary = /usr/bin/dig
-forks = 15
+forks = 20
 offset = 50%
 step = 300
 timeout = 15
