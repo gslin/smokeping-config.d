@@ -794,6 +794,9 @@ host = www.fg.tp.edu.tw
 ++ www_hcrc_edu_tw
 host = www.hcrc.edu.tw
 
+++ www_mit_edu
+host = www.mit.edu
+
 ++ www_nccu_edu_tw
 host = www.nccu.edu.tw
 
@@ -812,8 +815,6 @@ host = www.nsysu.edu.tw
 ++ www_nyu_edu
 host = www.nyu.edu
 
-++ www_mit_edu
-host = www.mit.edu
 
 ++ www_stanford_edu
 host = www.stanford.edu
