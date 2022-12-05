@@ -818,6 +818,8 @@ host = www.nsysu.edu.tw
 ++ www_nyu_edu
 host = www.nyu.edu
 
+++ www_scu_edu_tw
+host = www.scu.edu.tw
 
 ++ www_stanford_edu
 host = www.stanford.edu
