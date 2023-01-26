@@ -695,6 +695,10 @@ title = lon-gb-ping.vultr.com
 host = nj-us-ping.vultr.com
 title = nj-us-ping.vultr.com
 
++++ osk-jp-ping_vultr_com
+host = osk-jp-ping.vultr.com
+title = osk-jp-ping.vultr.com
+
 +++ par-fr-ping_vultr_com
 host = par-fr-ping.vultr.com
 title = par-fr-ping.vultr.com
