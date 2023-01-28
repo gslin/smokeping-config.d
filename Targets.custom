@@ -53,10 +53,6 @@ title = cdn.appledaily.com.tw.edgesuite.net (Akamai)
 host = cdn.17app.co.akamaized.net
 title = cdn.17app.co.akamaized.net (Akamai)
 
-++ code_jquery_netdna-cdn_com
-host = code.jquery.netdna-cdn.com
-title = code.jquery.netdna-cdn.com (NetDNA)
-
 ++ cdn_jsdelivr_net
 host = cdn.jsdelivr.net
 title = cdn.jsdelivr.net (Multi-CDN)
