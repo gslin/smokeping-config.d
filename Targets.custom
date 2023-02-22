@@ -883,11 +883,11 @@ host = ipfs.io
 ++ pbs_twimg_com
 host = pbs.twimg.com
 
-++ old_gslin_org
-host = old.gslin.org
-
 ++ ppa_launchpad_net
 host = ppa.launchpad.net
+
+++ old_gslin_org
+host = old.gslin.org
 
 ++ slack_com
 host = slack.com
