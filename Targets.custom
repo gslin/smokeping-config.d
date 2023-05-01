@@ -880,6 +880,9 @@ host = imgur.com
 ++ ipfs_io
 host = ipfs.io
 
+++ mirror01_idc_hinet_net
+host = mirror01.idc.hinet.net
+
 ++ pbs_twimg_com
 host = pbs.twimg.com
 
