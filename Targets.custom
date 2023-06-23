@@ -776,6 +776,9 @@ host = www.twgate.net
 menu = School
 title = School
 
+++ alumni_cs_nctu_edu_tw
+host = alumni.cs.nctu.edu.tw
+
 ++ www_berkeley_edu
 host = www.berkeley.edu
 
