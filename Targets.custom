@@ -892,6 +892,9 @@ host = pbs.twimg.com
 ++ ppa_launchpad_net
 host = ppa.launchpad.net
 
+++ ppa_launchpadcontent_net
+host = ppa.launchpadcontent.net
+
 ++ old_gslin_org
 host = old.gslin.org
 
