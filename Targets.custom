@@ -865,6 +865,9 @@ host = blog.ijliao.info
 ++ cdn_lbryplayer_xyz
 host = cdn.lbryplayer.xyz
 
+++ codeload_github_com
+host = codeload.github.com
+
 ++ f-droid_org
 host = f-droid.org
 
