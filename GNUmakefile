@@ -18,3 +18,4 @@ install::
 	${INSTALL} -g root -o root -m 0644 smokeping-fcgi.service /etc/systemd/system/
 	${INSTALL} -g root -o root -m 0644 smokeping /etc/cron.d/
 	${SYSTEMCTL} daemon-reload
+	${SYSTEMCTL} enable --now smokeping-fcgi.service
