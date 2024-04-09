@@ -1,5 +1,5 @@
 #
-# Install into /lib/systemd/system
+# Install into /etc/systemd/system
 [Unit]
 Description=Smokeping FastCGI daemon
 Requires=remote-fs.target smokeping.service
