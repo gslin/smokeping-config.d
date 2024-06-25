@@ -871,6 +871,9 @@ host = codeload.github.com
 ++ f-droid_org
 host = f-droid.org
 
+++ ghcr_io
+host = ghcr.io
+
 ++ github_com
 host = github.com
 
