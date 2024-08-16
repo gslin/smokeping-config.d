@@ -850,6 +850,9 @@ host = api.slack.com
 ++ app_slack_com
 host = app.slack.com
 
+++ apt_grafana_com
+host = apt.grafana.com
+
 ++ bazqux_com
 host = bazqux.com
 
