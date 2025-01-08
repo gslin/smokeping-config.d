@@ -189,6 +189,9 @@ host = dynamodb.af-south-1.amazonaws.com
 ++ dynamodb_ap-east-1_amazonaws_com
 host = dynamodb.ap-east-1.amazonaws.com
 
+++ dynamodb_ap-east-2_amazonaws_com
+host = dynamodb.ap-east-2.amazonaws.com
+
 ++ dynamodb_ap-northeast-1_amazonaws_com
 host = dynamodb.ap-northeast-1.amazonaws.com
 
@@ -257,6 +260,9 @@ host = s3.af-south-1.amazonaws.com
 
 ++ s3-ap-east-1_amazonaws_com
 host = s3-ap-east-1.amazonaws.com
+
+++ s3-ap-east-2_amazonaws_com
+host = s3-ap-east-2.amazonaws.com
 
 ++ s3-ap-northeast-1_amazonaws_com
 host = s3-ap-northeast-1.amazonaws.com
