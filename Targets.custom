@@ -207,6 +207,18 @@ host = dynamodb.ap-southeast-2.amazonaws.com
 ++ dynamodb_ap-southeast-3_amazonaws_com
 host = dynamodb.ap-southeast-3.amazonaws.com
 
+++ dynamodb_ap-southeast-4_amazonaws_com
+host = dynamodb.ap-southeast-4.amazonaws.com
+
+++ dynamodb_ap-southeast-5_amazonaws_com
+host = dynamodb.ap-southeast-5.amazonaws.com
+
+++ dynamodb_ap-southeast-6_amazonaws_com
+host = dynamodb.ap-southeast-6.amazonaws.com
+
+++ dynamodb_ap-southeast-7_amazonaws_com
+host = dynamodb.ap-southeast-7.amazonaws.com
+
 ++ dynamodb_ca-central-1_amazonaws_com
 host = dynamodb.ca-central-1.amazonaws.com
 
@@ -263,6 +275,18 @@ host = s3-ap-southeast-2.amazonaws.com
 
 ++ s3-ap-southeast-3_amazonaws_com
 host = s3-ap-southeast-3.amazonaws.com
+
+++ s3_ap-southeast-4_amazonaws_com
+host = s3.ap-southeast-4.amazonaws.com
+
+++ s3_ap-southeast-5_amazonaws_com
+host = s3.ap-southeast-5.amazonaws.com
+
+++ s3_ap-southeast-6_amazonaws_com
+host = s3.ap-southeast-6.amazonaws.com
+
+++ s3_ap-southeast-7_amazonaws_com
+host = s3.ap-southeast-7.amazonaws.com
 
 ++ s3-ca-central-1_amazonaws_com
 host = s3-ca-central-1.amazonaws.com
