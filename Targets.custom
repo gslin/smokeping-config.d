@@ -129,10 +129,6 @@ title = www.chinatimes.com.edgesuite.net (Akamai)
 host = www.cloudflare.com
 title = www.cloudflare.com (CloudFlare)
 
-++ www_edgecast_com
-host = www.edgecast.com
-title = www.edgecast.com (EdgeCast)
-
 ++ www_fastly_com
 host = www.fastly.com
 title = www.fastly.com (Fastly)
@@ -774,9 +770,6 @@ host = www.tfn.net.tw
 
 ++ www_tstartel_com
 host = www.tstartel.com
-
-++ www_twgate_net
-host = www.twgate.net
 
 + School
 menu = School
