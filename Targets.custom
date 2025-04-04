@@ -105,10 +105,6 @@ title = tw.is.kkbox.com.tw.edgesuite.net (Akamai)
 host = s-media-cache-ak.pinimg.com.edgekey.net
 title = s-media-cache-ak.pinimg.com.edgekey.net (Akamai)
 
-++ wac_20765_psicdn_net
-host = wac.20765.psicdn.net
-title = wac.20765.psicdn.net (EdgeCast)
-
 ++ wildcard_kfs_io_edgekey_net
 host = wildcard.kfs.io.edgekey.net
 title = wildcard.kfs.io.edgekey.net (Akamai)
@@ -120,10 +116,6 @@ title = wildcard.kkbox.com.edgekey.net (Akamai)
 ++ wildcard_pixfs_net_edgekey_net
 host = wildcard.pixfs.net.edgekey.net
 title = wildcard.pixfs.net.edgekey.net (Akamai)
-
-++ wpc_20765_psicdn_net
-host = wpc.20765.psicdn.net
-title = wpc.20765.psicdn.net (EdgeCast)
 
 ++ www_akamai_com
 host = www.akamai.com
