@@ -29,10 +29,6 @@ host = ptt3.cc
 menu = CDN
 title = CDN
 
-++ adn_20765_psicdn_net
-host = adn.20765.psicdn.net
-title = adn.20765.psicdn.net (EdgeCast)
-
 ++ ajax_googleapis_com
 host = ajax.googleapis.com
 title = ajax.googleapis.com (Google)
@@ -57,10 +53,6 @@ title = cdn.17app.co.akamaized.net (Akamai)
 host = cdn.jsdelivr.net
 title = cdn.jsdelivr.net (Multi-CDN)
 
-++ cs196_wac_edgecastcdn_net
-host = cs196.wac.edgecastcdn.net
-title = cs196.wac.edgecastcdn.net (EdgeCast, Twitter)
-
 ++ d36cz9buwru1tt_cloudfront_net
 host = d36cz9buwru1tt.cloudfront.net
 title = d36cz9buwru1tt.cloudfront.net (CloudFront)
@@ -76,10 +68,6 @@ title = dsa.17app.co.edgesuite.net (Akamai)
 ++ github_global_ssl_fastly_net
 host = github.global.ssl.fastly.net
 title = github.global.ssl.fastly.net (Fastly)
-
-++ media_limelight_com
-host = media.limelight.com
-title = media.limelight.com (Limelight)
 
 ++ netdna_bootstrapcdn_com
 host = netdna.bootstrapcdn.com
@@ -116,10 +104,6 @@ title = tw.is.kkbox.com.tw.edgesuite.net (Akamai)
 ++ s-media-cache-ak_pinimg_com_edgekey_net
 host = s-media-cache-ak.pinimg.com.edgekey.net
 title = s-media-cache-ak.pinimg.com.edgekey.net (Akamai)
-
-++ use_edgefonts_net-v3_edgekey_net
-host = use.edgefonts.net-v3.edgekey.net
-title = use.edgefonts.net-v3.edgekey.net (Akamai)
 
 ++ wac_20765_psicdn_net
 host = wac.20765.psicdn.net
