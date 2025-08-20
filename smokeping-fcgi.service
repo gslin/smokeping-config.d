@@ -10,6 +10,7 @@ PIDFile=/run/smokeping-fcgi.pid
 Restart=always
 RestartSec=60
 Type=simple
+UMask=0002
 
 [Install]
 WantedBy=multi-user.target
