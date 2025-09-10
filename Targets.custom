@@ -903,6 +903,9 @@ host = ppa.launchpadcontent.net
 ++ old_gslin_org
 host = old.gslin.org
 
+++ release-assets_githubusercontent_com
+host = release-assets.githubusercontent.com
+
 ++ slack_com
 host = slack.com
 
