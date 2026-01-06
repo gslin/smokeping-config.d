@@ -728,11 +728,17 @@ title = IM
 ++ api_line_me
 host = api.line.me
 
+++ api_telegram_org
+host = api.telegram.org
+
 ++ api-data_line_me
 host = api-data.line.me
 
 ++ line.me
 host = line.me
+
+++ telegram_org
+host = telegram.org
 
 + ISP
 menu = ISP
