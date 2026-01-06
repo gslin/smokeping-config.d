@@ -728,11 +728,17 @@ title = IM
 ++ api_line_me
 host = api.line.me
 
+++ api_slack_com
+host = api.slack.com
+
 ++ api_telegram_org
 host = api.telegram.org
 
 ++ api-data_line_me
 host = api-data.line.me
+
+++ app_slack_com
+host = app.slack.com
 
 ++ line.me
 host = line.me
@@ -858,12 +864,6 @@ title = 192.88.99.1 (6to4)
 
 ++ abs_twimg_com
 host = abs.twimg.com
-
-++ api_slack_com
-host = api.slack.com
-
-++ app_slack_com
-host = app.slack.com
 
 ++ apt_grafana_com
 host = apt.grafana.com
