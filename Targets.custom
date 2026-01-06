@@ -721,6 +721,19 @@ title = tx-us-ping.vultr.com
 host = wa-us-ping.vultr.com
 title = wa-us-ping.vultr.com
 
++ IM
+menu = IM
+title = IM
+
+++ api_line_me
+host = api.line.me
+
+++ api-data_line_me
+host = api-data.line.me
+
+++ line.me
+host = line.me
+
 + ISP
 menu = ISP
 title = ISP
