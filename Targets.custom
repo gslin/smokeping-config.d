@@ -740,7 +740,7 @@ host = api-data.line.me
 ++ app_slack_com
 host = app.slack.com
 
-++ line.me
+++ line_me
 host = line.me
 
 ++ telegram_org
