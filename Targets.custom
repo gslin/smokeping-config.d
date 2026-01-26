@@ -854,6 +854,21 @@ host = www.scu.edu.tw
 ++ www_stanford_edu
 host = www.stanford.edu
 
++ News
+menu = News
+
+++ www_bbc_com
+host = www.bbc.com
+
+++ www_cnbc_com
+host = www.cnbc.com
+
+++ www_cnn_com
+host = www.cnn.com
+
+++ www_ruters_com
+host = www.ruters.com
+
 + Service
 menu = Service
 title = Service
