@@ -1,11 +1,4 @@
 #
-+ Local
-menu = Local
-title = Local
-
-++ localhost
-host = localhost
-
 + BBS
 menu = BBS
 title = BBS
