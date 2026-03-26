@@ -2,7 +2,8 @@
 
 ## Installation
 
-    $ sudo make install
+    sudo apt install smokeping spawn-fcgi
+    sudo make install
 
 ## Sites
 
